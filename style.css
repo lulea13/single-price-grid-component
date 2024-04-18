@@ -1,0 +1,222 @@
+
+
+body {
+    background-color:#e5eff5;
+   
+    font-family: "Karla", sans-serif;
+     font-optical-sizing: auto;
+     font-weight: 400;
+     font-style: normal;
+   
+
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.main{
+    width: 100vw;
+    height: 100vh;   
+    margin: -8px;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.maincontainer {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 300px;
+    height: 650px;
+    box-shadow: 3px 3px 10px 0px rgba(0,0,0,0.35); 
+    border-radius: 7px;
+    overflow: hidden;
+    
+  
+}
+.bottom-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 68%;
+   
+
+}
+.container1 {
+    
+    width: 100%;
+    height: 32%;
+    background-color: white;
+    flex-direction: column;
+    
+
+}
+
+.container2 {
+   
+    width: 100%;
+    height: 50%;
+    background-color: #2AB2B0;
+    flex-direction: column;
+    
+}
+
+.container3 {
+  
+    width: 100%;
+    height: 50%;
+    background-color: #2AB2B0;
+    opacity: 80%;
+    flex-direction: column;
+   
+}
+
+#join {
+    font-weight: 700;
+    font-size: 20px;
+    color: #2ab2b0 ;
+    align-self: flex-start;
+    margin: 0;
+    padding-left: 20px;
+}
+
+#day {
+
+    font-weight: 400;
+    font-size: 14px;
+    color: #c0df34;
+    align-self: flex-start;
+    padding-left: 20px;
+    
+}
+
+#gain {
+    font-weight: 400;
+    font-size: 14px;
+    color: #98acbd;
+    align-self: flex-start;
+    padding-left: 20px;
+    margin: 0;
+    
+
+
+}
+
+#month {
+    font-weight: 700;
+    font-size: 18px;
+    color: white;
+    align-self: flex-start;  
+    padding-left: 20px;
+    margin: 0px 0px 0px;
+   
+}    
+.price-tag {
+    width: 100%;
+    margin: 0;
+    align-items: center;
+    justify-content: start;
+
+}
+
+#price {
+    font-weight: 700;
+    font-size: 35px;
+    color: white;
+    padding-left: 20px;
+    align-self: flex-start;
+    margin: 15px 0px 0px;
+}   
+
+#per-month {
+    font-weight: 400;
+    font-size: 14px;
+    opacity: 0.7;
+    color: white;
+    margin: 15px 0px 0px;
+    padding-left: 20px;
+}   
+
+#full {
+    font-weight: 400;
+    font-size: 14px;
+    color: white;
+    align-self: flex-start;
+    padding-left: 20px;
+    margin: 10px 0px 0px;
+}   
+
+button {
+    background-color: #c0df34;
+    color: white;
+    border: none;
+    margin-top: 20px;
+    width: 90%;
+    height: 20%;
+    border-radius: 5px;
+   
+
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #A9C42D;
+    transform: scale(1.02);
+}
+
+#why {
+    font-weight: 700;
+    font-size: 18px;
+    color: white;
+    align-self: flex-start;
+    padding-left: 20px;
+    margin-bottom: 30px;
+
+}
+
+#tutorials {
+    font-weight: 400;
+    font-size: 14px;
+    color: white;
+    opacity: 0.7;
+    list-style: none;
+    align-self: flex-start;
+    padding-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+
+
+@media (min-width: 576px) {
+
+
+
+.maincontainer {
+    
+    width: 570px;
+    height: 450px;
+    
+    
+}
+
+
+.bottom-container {
+    flex-direction: row;
+    height: 55%;
+    
+
+}
+.container1  {
+    height: 45%;
+} 
+
+
+.container2, .container3 {
+    height: 100%;
+
+}
+}
